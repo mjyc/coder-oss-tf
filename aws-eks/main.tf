@@ -22,7 +22,7 @@ variable "db_password" {
 ###############################################################
 # Set AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
 provider "aws" {
-  region = "us-east-1"
+  region = "us-west-2"
 }
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
